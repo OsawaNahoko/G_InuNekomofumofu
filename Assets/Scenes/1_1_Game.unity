@@ -2094,6 +2094,7 @@ MonoBehaviour:
   Boxcoll: {fileID: 0}
   m_Animator: {fileID: 0}
   m_Splaitrend: {fileID: 0}
+  Chara_ID: 0
   CountText: {fileID: 1666855156}
   LoopText: {fileID: 858783095}
   Loop: 0
@@ -2493,6 +2494,7 @@ MonoBehaviour:
   Boxcoll: {fileID: 0}
   m_Animator: {fileID: 0}
   m_Splaitrend: {fileID: 0}
+  Chara_ID: 1
   CountText: {fileID: 2036758379}
   LoopText: {fileID: 858783095}
   Loop: 0

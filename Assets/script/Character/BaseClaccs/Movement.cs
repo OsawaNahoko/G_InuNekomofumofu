@@ -22,11 +22,11 @@ public class Movement : AnimetionSetting
         //キャラクターのレイヤー順序を変更する。
         if(y == -1.6f)
         {
-            m_Splaitrend.sortingOrder = 10 + Chara_ID;//下段に居たら手前のレイヤーに設定。
+            m_Splaitrend.sortingOrder = 100 + Chara_ID;//下段に居たら手前のレイヤーに設定。
         }
         else if(y == 2.25f)
         {
-            m_Splaitrend.sortingOrder = 100 + Chara_ID;//上段に居たら奥のレイヤーに設定。
+            m_Splaitrend.sortingOrder = 10 + Chara_ID;//上段に居たら奥のレイヤーに設定。
         }
 
         unSet_DownAnime();
